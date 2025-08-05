@@ -298,8 +298,6 @@ Edit
 ---
 
 
-<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/6e800437-ba3c-46c4-b165-c3883e331f4c" />
-
 
 
 
