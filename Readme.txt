@@ -82,7 +82,7 @@ It features **AAA-level gameplay mechanics**, including scalable zombie waves, A
 
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/SahilC999/EclipseOfTheUndead3D.git
+   https://github.com/SahilC999/Eclipse-of-the-Undead-3D.git
 
 Open the project in Unity (2021.3 or later).
 
@@ -297,6 +297,7 @@ Edit
 
 
 ---
+
 
 
 
