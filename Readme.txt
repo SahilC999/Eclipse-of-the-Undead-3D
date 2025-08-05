@@ -293,10 +293,15 @@ Edit
 ## 📫 Contact
 
 
-**Author:** [Sahil Choutele](https://github.com/SahilC999)
+**Sahil Choutele**  
+- 🔗 [GitHub](https://github.com/SahilC999)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/sahil-choutele-011648357/)  
+- ✉️ Email: sahilchoutele553@gmail.com  
+- 🎮 Unity Game Developer | Python Full Stack Developer
 
 
 ---
+
 
 
 
