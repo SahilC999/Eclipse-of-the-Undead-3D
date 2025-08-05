@@ -1,7 +1,7 @@
 # 🧟 Eclipse of the Undead 3D
 
 **Eclipse of the Undead 3D** is a **3D zombie survival game** built in Unity.  
-It features **AAA-level gameplay mechanics**, including dynamic day-night cycles, scalable zombie waves, AI survivors to rescue, and a final car escape sequence.
+It features **AAA-level gameplay mechanics**, including scalable zombie waves, AI survivors to rescue, and a final car escape sequence.
 
 ---
 
@@ -293,6 +293,7 @@ Edit
 
 
 ---
+
 
 
 
