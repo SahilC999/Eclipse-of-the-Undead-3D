@@ -1,0 +1,73 @@
+using UnityEngine;
+
+/// <summary>
+/// Handles car interactions, survivor arrival, and triggers the game ending.
+/// Attach to the Car GameObject.
+/// </summary>
+public class CarSystem : MonoBehaviour
+{
+    [Header("Car Settings")]
+    public Transform entryPoint;
+    public AudioSource engineStartSound;
+    public AudioSource hornSound;
+
+    [Header("References")]
+    public GameEnding gameEnding;
+
+    private bool playerNear = false;
+    private bool survivorsArrived = false;
+    private int survivorsNeeded = 0;
+    private int survivorsAtCar = 0;
+
+    void Start()
+    {
+        SurvivorManager.OnSurvivorCountSet += (count) => survivorsNeeded = count;
+        SurvivorManager.OnSurvivorReachedCar += OnSurvivorReachedCar;
+    }
+
+    void Update()
+    {
+        if (playerNear && survivorsArrived && Input.GetKeyDown(KeyCode.E))
+        {
+            StartCarAndEscape();
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerNear = true;
+            Debug.Log("Press E to start car when survivors are here!");
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player")) playerNear = false;
+    }
+
+    void OnSurvivorReachedCar()
+    {
+        survivorsAtCar++;
+        Debug.Log("Survivor reached car: " + survivorsAtCar + "/" + survivorsNeeded);
+        if (survivorsAtCar >= survivorsNeeded)
+        {
+            survivorsArrived = true;
+            Debug.Log("All survivors are here! Escape when ready!");
+            hornSound?.Play();
+        }
+    }
+
+    void StartCarAndEscape()
+    {
+        Debug.Log("Car starting...");
+        engineStartSound?.Play();
+        Invoke("TriggerGameEnd", 3f);
+    }
+
+    void TriggerGameEnd()
+    {
+        gameEnding?.EndGameWin();
+    }
+}
