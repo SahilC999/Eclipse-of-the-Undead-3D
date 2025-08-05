@@ -5,6 +5,8 @@ It features **AAA-level gameplay mechanics**, including scalable zombie waves, A
 
 ---
 
+![image alt](https://github.com/SahilC999/Eclipse-of-the-Undead-3D/blob/4b5d875f18c63bf120e60f90e4767991468b1184/screenshot1.png)
+
 ## 🎮 Features
 
 
@@ -293,6 +295,7 @@ Edit
 
 
 ---
+
 
 
 
