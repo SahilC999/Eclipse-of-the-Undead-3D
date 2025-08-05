@@ -78,7 +78,7 @@ It features **AAA-level gameplay mechanics**, including dynamic day-night cycles
 
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/YourUsername/EclipseOfTheUndead3D.git
+   git clone https://github.com/SahilC999/EclipseOfTheUndead3D.git
 
 Open the project in Unity (2021.3 or later).
 
@@ -291,4 +291,7 @@ Edit
 
 **Author:** [Sahil Choutele](https://github.com/SahilC999)
 
+
+
 ---
+
