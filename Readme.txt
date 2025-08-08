@@ -141,20 +141,8 @@ Open the project in Unity (2021.3 or later).
 
 Open the MainMenu.unity scene and click Play.
 
-👨‍💻 Tech Stack
-Unity (C#)
-
-NavMesh AI
-
-Particle Effects
-
-AAA Audio & Animation Support
-
-
 
 ---
-
-
 
 ## 📫 Contact
 
@@ -167,6 +155,7 @@ AAA Audio & Animation Support
 
 
 ---
+
 
 
 
