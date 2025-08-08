@@ -79,7 +79,6 @@ It features **AAA-level gameplay mechanics**, including scalable zombie waves, A
 ## 🛠 How to Install & Run
 
 1. Clone or download the repository:
-   ```bash
    https://github.com/SahilC999/Eclipse-of-the-Undead-3D.git
 
 Open the project in Unity (2021.3 or later).
@@ -88,21 +87,10 @@ Open the MainMenu.unity scene and click Play.
 
 👨‍💻 Tech Stack
 Unity (C#)
-
 NavMesh AI
-
 Particle Effects
-
 AAA Audio & Animation Support
 
-
-📜 License
-This project is for educational purposes.
-Feel free to modify and use for learning or portfolio purposes.
-
-markdown
-Copy
-Edit
 
 ---
 
@@ -162,131 +150,11 @@ Particle Effects
 
 AAA Audio & Animation Support
 
-🏆 Credits
-Developed by [Your Name].
-Game Concept, Design, and Programming by You.
 
-📜 License
-This project is for educational purposes.
-Feel free to modify and use for learning or portfolio purposes.
-
-markdown
-Copy
-Edit
 
 ---
 
-## 📦 **Final Integration Notes (How to Set Up Everything in Unity)**
 
-1. **Create Scenes:**
-   - `MainMenu.unity` → add UI Canvas with Play & Quit buttons, attach `MainMenu.cs`.
-   - `Game.unity` → main gameplay scene with player, zombies, car, mansion, etc.
-
-2. **Setup Player:**
-   - Add `PlayerCombat.cs`, `PlayerHealth.cs`, and camera to FPS character.
-   - Assign references (Animator, Camera, MuzzleFlash, UIManager).
-
-3. **Setup UI:**
-   - Create HUD Canvas → Health, Ammo, Score, Wave Count → link in `UIManager.cs`.
-   - Create PauseMenu Canvas (disabled by default) → link in `PauseMenu.cs`.
-
-4. **Setup Zombies:**
-   - Create zombie prefab → add `ZombieHealth.cs`, animator, audio.
-   - Assign this prefab to `WaveSpawner`.
-
-5. **Setup Mansion & Survivors:**
-   - Place AI survivors in mansion → add `AISurvivor.cs`, NavMeshAgent, Animator.
-   - Add `SurvivorManager` to an empty GameObject.
-
-6. **Setup Car:**
-   - Add `CarSystem.cs` to the car object.
-   - Assign entry trigger (collider) and link `GameEnding`.
-
-7. **Setup Day/Night Cycle:**
-   - Add `DayNightCycle.cs` to the sun light object.
-   - Assign skybox materials and light color gradient.
-
-8. **Setup Game Ending:**
-   - Create a GameObject with `GameEnding.cs`.
-   - Assign Victory UI Canvas and optional cinematic camera.
-
-9. **Link Scripts Together:**
-   - Ensure all references in the Inspector are correctly assigned.
-   - UIManager → linked in all scripts needing UI updates.
-
-10. **Build & Test:**
-    - Press Play → Verify wave spawning, survivor rescue, and car escape flow.
-
----
-Open the project in Unity (2021.3 or later).
-
-Open the MainMenu.unity scene and click Play.
-
-👨‍💻 Tech Stack
-Unity (C#)
-
-NavMesh AI
-
-Particle Effects
-
-AAA Audio & Animation Support
-
-🏆 Credits
-Developed by [Your Name].
-Game Concept, Design, and Programming by You.
-
-📜 License
-This project is for educational purposes.
-Feel free to modify and use for learning or portfolio purposes.
-
-markdown
-Copy
-Edit
-
----
-
-## 📦 **Final Integration Notes (How to Set Up Everything in Unity)**
-
-1. **Create Scenes:**
-   - `MainMenu.unity` → add UI Canvas with Play & Quit buttons, attach `MainMenu.cs`.
-   - `Game.unity` → main gameplay scene with player, zombies, car, mansion, etc.
-
-2. **Setup Player:**
-   - Add `PlayerCombat.cs`, `PlayerHealth.cs`, and camera to FPS character.
-   - Assign references (Animator, Camera, MuzzleFlash, UIManager).
-
-3. **Setup UI:**
-   - Create HUD Canvas → Health, Ammo, Score, Wave Count → link in `UIManager.cs`.
-   - Create PauseMenu Canvas (disabled by default) → link in `PauseMenu.cs`.
-
-4. **Setup Zombies:**
-   - Create zombie prefab → add `ZombieHealth.cs`, animator, audio.
-   - Assign this prefab to `WaveSpawner`.
-
-5. **Setup Mansion & Survivors:**
-   - Place AI survivors in mansion → add `AISurvivor.cs`, NavMeshAgent, Animator.
-   - Add `SurvivorManager` to an empty GameObject.
-
-6. **Setup Car:**
-   - Add `CarSystem.cs` to the car object.
-   - Assign entry trigger (collider) and link `GameEnding`.
-
-7. **Setup Day/Night Cycle:**
-   - Add `DayNightCycle.cs` to the sun light object.
-   - Assign skybox materials and light color gradient.
-
-8. **Setup Game Ending:**
-   - Create a GameObject with `GameEnding.cs`.
-   - Assign Victory UI Canvas and optional cinematic camera.
-
-9. **Link Scripts Together:**
-   - Ensure all references in the Inspector are correctly assigned.
-   - UIManager → linked in all scripts needing UI updates.
-
-10. **Build & Test:**
-    - Press Play → Verify wave spawning, survivor rescue, and car escape flow.
-
----
 
 ## 📫 Contact
 
@@ -299,6 +167,7 @@ Edit
 
 
 ---
+
 
 
 
